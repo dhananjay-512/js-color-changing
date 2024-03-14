@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <h1> To Do List </h1>
+    <p> Daily Routine status</p>
+    <button onclick="display()"> SHOW </button>
+    <ul id="myUL">
+        <li> gym</li>
+        <li class="checked">Pay bills</li>
+        <li>Meet Doctor</li>
+        <li>Buy eggs</li>
+        <li>Read a book</li> 
+        <li>Organize office</li>
+    </ul>
+    <h1>List</h1> 
+  
+    <h2>add list</h2>
+
+
+    <to do list daily>
+
+        <script>
+            function display() {
+                let s = document.getElementById("myUL");
+                s.style.display = "block"
+            }
+        </script>
+
+
+</body>
+
+</html>

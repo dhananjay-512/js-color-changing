@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 5vmin;
+}
+
+#canvas{
+    background-color: red;
+    font-size: 5vmin;
+    text-align: center;
+    padding: 5%;
+}
+
+#button{
+    text-align: center;
+    color: white;
+    background: black;
+    font-size: 5vmin;
+    border-radius: 1vmin;
+    margin: auto;
+    padding: 1% 5%;
+}
+
+p{
+    filter: invert(100%);
+}
